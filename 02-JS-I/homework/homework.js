@@ -43,21 +43,21 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var total = x-y;
+  var total = x - y;
   return total; 
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var total = x*y; 
+  var total = x * y; 
   return total; 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var total = x/y; 
+  var total = x / y; 
   return total;
 }
 
@@ -74,10 +74,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( str1.length === str2.length){
-    return true;
-  }else {
-    return false;}
+  return str1.length === str2.length
+    
 }
 
 function menosQueNoventa(num) {
@@ -112,7 +110,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var resto = num % 2;
-  if(resto == 0){
+  if(resto === 0){
     return true;}
   else{
     return false; }
@@ -123,7 +121,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var resto = num % 2;
-  if(resto != 0){
+  if(resto === 1){
     return true;}
   else{
     return false;}
@@ -133,21 +131,21 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadrador = num * num;
+  var cuadrado = num * num;
   return cuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cubo = math.pow(num, 3);
+  var cubo = Math.pow(num, 3);
   return cubo;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var total = math.pow(num, exponent);
+  var total = Math.pow(num, exponent);
   return total;
   
 }
@@ -155,14 +153,14 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var total = math.round(num);
+  var total = Math.round(num);
   return total;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var total = math.ceil(num);
+  var total = Math.ceil(num);
   return total;
 }
 
@@ -170,7 +168,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var nuevoString = str + "!";
+  var nuevoString = str + '!';
   return nuevoString;
 }
 
