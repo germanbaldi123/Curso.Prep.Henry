@@ -1,0 +1,18 @@
+For:
+For es un metodo para generar ciclos, esto sirve para repetir una accion una cantidad de veces de manera automatica.
+Primero se inicia una variable (i). 
+Luego se da una condicion ante la cual el ciclo debera terminar (por ejemplo, cuando i sea igual a 10).
+Por ultimo un indicador que aumente el valor de i cada vez que el ciclo termine (por ejemplo que i aumente 1)
+Seguido del ciclo, se escribe el codigo que se ejecutara en cada vuelta del ciclo.
+
+&&:
+Sirve para expreciones de igualdad, e indica al condicional que ambas expresiones deben cumplirse.
+if(i > 4 && i < 10) quiere decir que para que la condicion se cumpla i debe ser mayor que cuatro y a su vez menor que 10 (5,6,7,8,9)
+
+||:
+Sirve para expreciones de igualdad, e indica al condicional que alguna de las expresiones deben cumplirse.
+if(i < 4 || i > 10) quiere decir que para que la condicion se cumpla i debe ser menor que cuatro O mayor que 10 (1,2,3 - 11,12,13...)
+
+!:
+indica al condicional una exprecion que no es valida. por lo que mientras que NO SE CUMPLA esta expresion, el codigo se ejecuta.
+por ejemplo if( I != 4) quiere decir que para que la condicion se cumpla i no debe ser igual a 4 (1,2,3,5,6,7...)
