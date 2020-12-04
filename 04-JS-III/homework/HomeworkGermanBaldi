@@ -1,0 +1,4 @@
+Array:
+Un array es una variable que dentro contiene una lista de datos, estos pueden ser strings, numeros, otros arrays, funciones, y cualquier otro tipo de datos.
+Dentro de cada array los elementos estan ordenados numericamente y para acceder a ellos se llama al array por su nombre seguido de un indicador numerico entre corchetes que indique a que elemento queremos acceder
+cabe resaltar que el primer elemnto el es numero 0, por consecuencia, si tenemos un array de tres elementos, para acceder al tercero debemos llamar al array[2]
