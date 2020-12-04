@@ -1,0 +1,24 @@
+Variables: 
+Las variables son una forma de almacenar datos. Como su nombre lo indica, son variables, esto significa que su contenido puede ser modificado.
+
+String:
+Es un tipo de dato. Esta compuesto por una cadena de texto y no tiene un valor numerico aun cuando esta compuesto por numeros. 
+
+Funciones: 
+Una funcion es una serie de indicaciones y operaciones que se declaran para otorgar un resultado. Los argumentos de la funcion son los datos que va a tomar la misma para realizar las operaciones.
+El retorno es el el resultado que la funcion va a otorgar.
+Por ejemplo; Si quiero crear una función que determine la cantidad de alumnos que faltan a una clase, deberia tomar como argumento, la cantidad total de alumnos (A) y la cantidad de presentes(B). Luego declarar la variable Faltas que este compuesta por la operacion A-B.
+Por ultimo retornar el valor de la variable faltas.
+
+CantidadDeFaltas(20,18)
+retorna 2
+
+
+Declaraciones IF:
+Una declaracion if esta compuesta por una condición seguida de una operacion. Dicha operacion solo se realizara si la condicion planteada se cumple. 
+Por ejemplo; 
+if( a > 4){ return a + 1}; indica que si Y SOLO SI, a es mayor a 4, se le sumara 1. Dentro de las declaraciones IF existe la declaracion ELSE, que es seguida de otra operacion en caso de que la condicion planteada en el IF no se cumpla.
+
+
+Valores booleanos: 
+Los valores booleanos responden a un comportamiento binario, es decir, solo hay dos valores, Verdadero (true) o falso (false). Se puede asignar valores booleanos a nuestras declaraciones para que respondan a la logica de nuestro codigo. 
