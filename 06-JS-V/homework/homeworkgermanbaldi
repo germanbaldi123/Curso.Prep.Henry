@@ -1,0 +1,2 @@
+Prototype:
+    el proptotipo es el modelo constructor de una clase de objetos, en JavaScript los elementos que creamos, como los array o las funciones, tienen un prototipo que nos permite utilizar metodos ya existentes sin necesidad de crearlos manualmente (.push .lenght .pop)
