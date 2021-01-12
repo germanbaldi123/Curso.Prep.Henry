@@ -1,0 +1,11 @@
+Objeto:
+    Un objeto es una variable a la que se le pueden asignar propiedades (nombre, tamaño, edad, color, metodos)
+Propiedades:
+    las propiedades son los atributos que se le asignan a un objeto y a los cuales se puede acceder luego, a diferencia del array, a las propiedades se accede con el nombre de las mismas independientemente de su orden cronologico
+Metodos: 
+    Un metodo es una funcion que se asigna como atributo a un objeto para luego poder llamarla y utilizarla tomando como atributos, distintas propiedades del mismo objeto
+Bucle for... in :
+    E bucle for in toma un array o una lista de objetos y aplica el codigo siguiente a cada uno de los objetos de la lista
+Notacion de puntos vs corchetes:
+    la notacion de puntos es mucho mas comodaa la hora de escribirla, pero al ser literal, no sirve para para llamar variables, ya que va a buscar literalmente la propiedad que esta escrita.
+    
